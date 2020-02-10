@@ -18,8 +18,7 @@ class ProjectController {
     @ResponseStatus(value = HttpStatus.OK)
     @GetMapping("/project/{id}")
     fun getProject(@PathVariable id: Long) = projectService.findById(id)
-    
-    @GetMapping("/")
-    fun home() = "message" to "Hello app"
+
+
 
 }

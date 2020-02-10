@@ -9,6 +9,8 @@ import org.springframework.security.core.userdetails.User
 import org.springframework.security.core.userdetails.UserDetails
 import org.springframework.security.core.userdetails.UserDetailsService
 import org.springframework.security.provisioning.InMemoryUserDetailsManager
+import org.springframework.web.servlet.config.annotation.CorsRegistry
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer
 
 
 @Configuration
@@ -39,4 +41,14 @@ class WebSecurityConfig : WebSecurityConfigurerAdapter() {
                 .build()
         return InMemoryUserDetailsManager(user)
     }
+
+    @Bean
+    fun corsConfigurer(): WebMvcConfigurer? {
+        return object : WebMvcConfigurer {
+            override fun addCorsMappings(registry: CorsRegistry) {
+                registry.addMapping("/greeting-javaconfig").allowedOrigins("http://localhost:9000")
+            }
+        }
+    }
+
 }
