@@ -1,7 +1,6 @@
 package com.bugtracker.dal.dao
 
 import com.bugtracker.dal.transformer.EntityDTOMapper
-import com.bugtracker.dal.transformer.ProjectMapper
 import com.bugtracker.repository.ProjectRepository
 import com.bugtracker.repository.domain.ProjectEntity
 import com.bugtracker.service.domain.Project

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c37efc9b-a9c8-4ecc-853c-8c70a4cca8f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/BugtrackerApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/BugtrackerApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/config/Neo4JConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/config/Neo4JConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/config/WebSecurityConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/config/WebSecurityConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/dal/dao/ProjectDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/dal/dao/ProjectDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/dal/transformer/EntityDtoMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/dal/transformer/EntityDtoMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/dal/transformer/ProjectMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/dal/transformer/ProjectMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/repository/ProjectRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/repository/ProjectRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/repository/domain/BoardEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/repository/domain/BoardEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/repository/domain/LabelEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/repository/domain/LabelEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/repository/domain/ProjectEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/repository/domain/ProjectEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/repository/domain/TicketEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/repository/domain/TicketEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/repository/domain/UserEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/repository/domain/UserEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/service/ProjectService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/service/ProjectService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/service/domain/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/service/domain/Board.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/service/domain/Label.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/service/domain/Label.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/service/domain/Project.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/service/domain/Project.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/service/domain/Ticket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/service/domain/Ticket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/service/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/bugtracker/service/domain/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/web/controller/HomeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/com/bugtracker/controller/HomeController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/web/controller/LoginController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/com/bugtracker/controller/LoginController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bugtracker/web/controller/ProjectController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/kotlin/com/bugtracker/controller/ProjectController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/bugtracker/BugtrackerApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/kotlin/com/bugtracker/BugtrackerApplicationTests.kt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XHqZcMG50cUcmeXeISyUX6Or55" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Attila_Alex_Torok\Stuff\bug-tracker\api\src\main\kotlin\com\bugtracker" />
+      <recent name="C:\Users\Attila_Alex_Torok\Stuff\bug-tracker\backend" />
+      <recent name="C:\Users\Attila_Alex_Torok\Stuff\bug-tracker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c37efc9b-a9c8-4ecc-853c-8c70a4cca8f2" name="Default Changelist" comment="" />
+      <created>1580713423042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580713423042</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
