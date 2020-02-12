@@ -1,4 +1,4 @@
-package com.bugtracker.web.controller
+package com.bugtracker.controller
 
 import com.bugtracker.service.ProjectService
 import org.springframework.beans.factory.annotation.Autowired

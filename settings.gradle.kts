@@ -1,3 +1,3 @@
 rootProject.name = "bugtracker"
 
-include("backend", "api", "frontend")
+include("backend", "api", "app")

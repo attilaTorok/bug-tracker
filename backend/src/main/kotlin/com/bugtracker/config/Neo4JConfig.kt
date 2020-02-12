@@ -14,6 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement
 @EnableNeo4jRepositories(basePackages = ["com.bugtracker.repository"])
 @EnableTransactionManagement
 class Neo4JConfig {
+
     @Bean
     fun sessionFactory(): SessionFactory { // with domain entity base package(s)
         return SessionFactory(configuration(), "com.bugtracker.repository.domain")
@@ -29,4 +30,5 @@ class Neo4JConfig {
     fun transactionManager(): Neo4jTransactionManager {
         return Neo4jTransactionManager(sessionFactory())
     }
+
 }

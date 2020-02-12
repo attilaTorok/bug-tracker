@@ -1,7 +1,4 @@
-package com.bugtracker.web.controller
-
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RestController
+package com.bugtracker.controller
 
 @RestController
 class HomeController {

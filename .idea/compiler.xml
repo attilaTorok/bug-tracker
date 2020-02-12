@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="bugtracker.ai.main" target="11" />
+      <module name="bugtracker.ai.test" target="11" />
+      <module name="bugtracker.bd.main" target="11" />
+      <module name="bugtracker.bd.test" target="11" />
+      <module name="bugtracker.test.main" target="11" />
+      <module name="bugtracker.test.test" target="11" />
+      <module name="bugtracker.test2.main" target="11" />
+      <module name="bugtracker.test2.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
